@@ -1,0 +1,23 @@
+baseURL: http://burdukiewicz.com/gp-conference/
+disableKinds:
+  - section
+  - taxonomy
+  - term
+  - RSS
+  - robotsTXT
+  - '404'
+defaultContentLanguage: en
+theme: hugo-product-launch
+title: Genomics Platform@WUT 2021 conference
+markup:
+  goldmark:
+    renderer:
+      hardWraps: yes
+params:
+  copyright: © Michał Burdukiewicz, Genomics Platform, Warsaw University of Technology
+  description: Genomics Platform@WUT 2021 conference
+  favicon: images/favicon.png
+  images: images/share-image.png
+  meta:
+    keywords: genomics, bioinformatics, Warsaw University of Technology
+  title: Genomics Platform@WUT 2021 conference
